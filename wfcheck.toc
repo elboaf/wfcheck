@@ -1,0 +1,4 @@
+## Interface: 11200
+## Title: wfcheck
+## Notes: checks for wf and /y if its not active
+wfcheck.lua
