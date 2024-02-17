@@ -10,7 +10,7 @@ end)
 
 SLASH_ATTACK1 = '/wfcheck'
 function SlashCmdList.ATTACK(command)
-	if (not attacking) and (not attacktick or attacktick < GetTime()) then
+	if (attacking) and (not attacktick or attacktick < GetTime()) then
 			attacktick = GetTime() + 2
 if not
 buffed("Windfury Totem 3", 'player') then
